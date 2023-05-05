@@ -1,0 +1,536 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+section
+{
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+
+
+.container
+{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+}
+
+
+.container-column
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap ;
+}
+
+.card
+{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* ------------------------------------section one------------------------------------------------------------------------*/
+/* ------------------------------------section one------------------------------------------------------------------------*/
+/* ------------------------------------section one------------------------------------------------------------------------*/
+/* ------------------------------------section one------------------------------------------------------------------------*/
+
+nav
+{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+nav a 
+{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0 4px;
+}
+nav img
+{
+    width: 50px;
+    margin: 0 5px;
+}
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+
+.social-media
+{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    rotate:-90deg;
+    position: absolute;
+    left: -62px;
+    top: 260px;
+    font-size: 11px;
+    background-color: rgba(240, 248, 255, 0);
+
+}
+.social-media a
+{
+    color: rgba(255, 255, 255, 0.416);
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(240, 248, 255, 0);
+
+    
+}
+.social-media a:hover
+{
+    color: rgb(162, 255, 0);
+    margin: 0 10px;
+}
+
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+
+.headers
+{
+    width: fit-content;
+    margin: 0 auto;  
+}
+.headers h1
+{
+    color: rgb(162, 255, 0);
+    font-size: 20px; 
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.headers h2
+{
+    color: white;
+    font-size: 40px; 
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.headers h3
+{
+    color: white;
+    background-color: rgb(162, 255, 0);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
+
+
+    
+}
+
+
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+
+.scroll-down
+{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.477);
+    font-size:10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.scroll-down i 
+{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+.container5
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20;
+}
+.text-part
+{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: calc(100%/2);
+}
+.text-part h1
+{
+    color:  rgb(162, 255, 0);
+    font-size: 10px;
+}
+.text-part h2
+{
+    color: white;
+}
+.text-part h2 span
+{
+    color:rgb(162, 255, 0);
+}
+.text-part p
+{
+    color: rgba(255, 255, 255, 0.423);
+    font-size: 10px;
+}
+.text-part div
+{
+    color: rgba(162, 255, 0, 0.716);
+    border: 1px solid  rgba(162, 255, 0, 0.716);
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+
+.img-part
+{
+    width: calc(100%/2);
+}
+.img-1-section5
+{
+    width: 285px;
+    position: absolute;
+}
+.img-2-section5
+{
+    width: calc(100%/2);
+    margin-left: 80px;
+}
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+
+.container6
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.h1-6
+{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.h1-6 span 
+{
+    color: rgb(162, 255, 0);
+    text-align: center;
+
+}
+.h2-6
+{
+    color: rgb(162, 255, 0);
+    text-align: center;
+
+}
+.card6
+{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    justify-content: center;
+    align-items: center;
+}
+.card6 h3
+{
+    background-color:rgba(255, 255, 255, 0.204);
+    color: white;
+    width: 45%;
+    text-align: right;
+
+}
+.card6 p
+{
+    color:white;
+    width: 10%;
+    text-align: center;    
+}
+.card6 h4
+{
+    background-color:rgba(255, 255, 255, 0.251);
+    color: white;
+    width: 45%; 
+}
+.watch
+{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    justify-content: space-between;
+    align-items: center;
+    color: white
+}
+.watch1
+{
+    width: 45%;
+    text-align: right;
+
+}
+.watch2
+{
+    width: 45%;
+
+}
+.watch a
+{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+
+.container7
+{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.h1-7
+{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.h1-7 span
+{
+    color: rgb(162, 255, 0);
+}
+h2.
+{
+    color: rgb(162, 255, 0);
+    text-align: center;
+}
+
+.card4
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.card4 img
+{
+    width: 150px;
+    background-color:rgb(162, 255, 0);
+    margin: 0 10px;
+}
+.card4 div
+{
+
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-left: 2px solid  rgb(162, 255, 0);
+    margin-left: 10px;    
+}
+.description
+{
+   color: white;
+   padding: 15px;
+   text-transform: uppercase;
+}
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+.container8
+{
+    width: 80%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse ;
+    justify-content: space-around;
+
+}
+.blog-art
+{
+
+}
+.card8
+{
+    display: flex;
+    flex-direction: column;
+    width: calc(97%/3);
+    
+}
+.card8 img
+{
+    width: 100%;
+}
+.description8
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.description8 h1
+{
+    color: white;
+    font-size: 10px;
+}
+.description8 h2
+{
+    color: rgb(162, 255, 0);
+    font-size: 10px;
+}
+
+.card8 div p
+{
+    color: white;
+    font-size: 10px;
+    width: 25%px;
+    background: green;
+}
+
+
+
+
+
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+.container9
+{
+    background-color: aliceblue;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse ;
+    justify-content: space-between;
+}
+.container9 h1
+{
+    width: calc(100%/3);
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.container9 p
+{
+    color: rgba(255, 255, 255, 0.464);
+    font-size: 10px;
+    width: calc(100%/3);
+
+
+}
+.container9 a
+{
+    color: white;
+    background-color:  rgb(162, 255, 0);
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: calc(100%/3);
+
+}
+
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+
+.container10
+{
+    width: 80%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse ;
+    justify-content: space-between;
+
+}
+.container10 img
+{
+    width: calc(98%/3);
+}
+.img10
+{
+    position: relative;
+    bottom : 100px;
+}
+
+
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+/* ------------------------------------section Two------------------------------------------------------------------------*/
+
+.container11
+{
+    width: 90%;
+    margin: auto auto;
+    flex-wrap: wrap-reverse ;
+    justify-content: space-between;  
+}
+.img-elaven
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img-elaven img
+{
+    width: calc(95%/4);
+}
+
+
